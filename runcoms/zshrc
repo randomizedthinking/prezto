@@ -20,11 +20,13 @@ export DEBEMAIL=DEBFULLNAME
 # so xdg-open will use exo-open as program launcher
 export XDG_CURRENT_DESKTOP=XFCE
 
+# Gemini Api Key
+export GEMINI_API_KEY="AIzaSyC1CKk-EpjteriIDmyaSKOnT-TmdMgPo7s"
+
 # Customize to your needs...
 source ~/02-computing/shell/zsh-config/basic.zsh
 source ~/02-computing/shell/zsh-config/alias.zsh
 source ~/02-computing/shell/zsh-config/fzf.zsh
 source ~/02-computing/shell/zsh-config/sagemaker.zsh
 source ~/02-computing/shell/zsh-config/functions.zsh
-source ~/02-computing/shell/zsh-config/ssh.zsh
 source ~/02-computing/shell/zsh-config/key-bindings.zsh
