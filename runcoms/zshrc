@@ -15,12 +15,10 @@ export FZF_DEFAULT_COMMAND='fd --type f'
 
 DEBEMAIL="randomizedthinking@gmail.com"
 DEBFULLNAME="Gang Liang"
-export DEBEMAIL=DEBFULLNAME
+export DEBEMAIL
+export DEBFULLNAME
 
-# so xdg-open will use exo-open as program launcher
-export XDG_CURRENT_DESKTOP=XFCE
-
-# Customize to your needs...
+source ~/02-computing/shell/zsh-config/X.zsh
 source ~/02-computing/shell/zsh-config/basic.zsh
 source ~/02-computing/shell/zsh-config/alias.zsh
 source ~/02-computing/shell/zsh-config/fzf.zsh
@@ -31,3 +29,4 @@ source ~/02-computing/shell/zsh-config/functions.zsh
 source ~/02-computing/shell/zsh-config/key-bindings.zsh
 source ~/02-computing/shell/zsh-config/python.zsh
 source ~/02-computing/shell/zsh-config/api-keys.zsh
+source ~/02-computing/shell/zsh-config/pnpm.zsh
