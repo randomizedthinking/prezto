@@ -25,6 +25,7 @@ source ~/02-computing/shell/zsh-config/fzf.zsh
 source ~/02-computing/shell/zsh-config/music.zsh
 source ~/02-computing/shell/zsh-config/tmux.zsh
 source ~/02-computing/shell/zsh-config/sagemaker.zsh
+source ~/02-computing/shell/zsh-config/snowflake.zsh
 source ~/02-computing/shell/zsh-config/functions.zsh
 source ~/02-computing/shell/zsh-config/key-bindings.zsh
 source ~/02-computing/shell/zsh-config/python.zsh
