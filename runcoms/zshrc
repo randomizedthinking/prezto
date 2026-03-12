@@ -20,6 +20,7 @@ export DEBFULLNAME
 
 source ~/02-computing/shell/zsh-config/X.zsh
 source ~/02-computing/shell/zsh-config/windows.zsh
+source ~/02-computing/shell/zsh-config/wsl.zsh
 
 source ~/02-computing/shell/zsh-config/basic.zsh
 source ~/02-computing/shell/zsh-config/alias.zsh
