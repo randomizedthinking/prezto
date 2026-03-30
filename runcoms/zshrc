@@ -33,3 +33,4 @@ source ~/02-computing/shell/zsh-config/functions.zsh
 source ~/02-computing/shell/zsh-config/key-bindings.zsh
 source ~/02-computing/shell/zsh-config/python.zsh
 source ~/02-computing/shell/zsh-config/api-keys.zsh
+source ~/02-computing/shell/zsh-config/keyring.zsh
