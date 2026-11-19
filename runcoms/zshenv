@@ -5,6 +5,11 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# Ubuntu's /etc/zsh/zshrc runs a full compinit before ~/.zshrc. That dump uses
+# a different fpath than the later compinit in basic.zsh, so every new urxvt
+# rebuilds ~/.zcompdump. Completions still load from basic.zsh.
+skip_global_compinit=1
+
 # Ensure that a non-login, non-interactive shell has a defined environment.
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
